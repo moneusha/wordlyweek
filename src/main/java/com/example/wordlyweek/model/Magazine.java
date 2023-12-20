@@ -17,7 +17,7 @@ public class Magazine {
     @Column(name = "title")
     private String magazineName;
 
-    @Column(name = "publicationDate")
+    @Column(name = "publicationdate")
     private String publicationDate;
 
     @ManyToMany(mappedBy = "magazines")
